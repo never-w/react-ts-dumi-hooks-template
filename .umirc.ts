@@ -1,11 +1,34 @@
-import { defineConfig } from 'dumi';
+import { defineConfig } from 'dumi'
 
 export default defineConfig({
-  title: 'wyq-hooks',
-  favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+  title: 'w-hooks',
+  favicon: 'https://avatars.githubusercontent.com/u/80503467?v=4',
+  logo: 'https://avatars.githubusercontent.com/u/80503467?v=4',
   outputPath: 'docs-dist',
   mode: 'site',
-  // more config: https://d.umijs.org/config
-});
+  alias: {
+    '@': './src',
+  },
+  navs: [
+    { title: '指南', path: '/guide' },
+    { title: 'Hooks', path: '/wHooks' },
+    {
+      title: 'GitHub',
+      path: 'https://github.com/never-w/w-hooks.git',
+    },
+    { title: '帮助', path: 'https://www.baidu.com' },
+  ],
+  menus: {
+    '/guide': [
+      {
+        title: '介绍',
+        path: '/guide/foo',
+      },
+      {
+        title: 'Blog',
+        path: '/guide/foo1',
+      },
+    ],
+  },
+  exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
+})

@@ -1,6 +1,6 @@
 ---
+title: Button
 nav:
-  title: Hooks
   path: /wHooks
 ---
 
@@ -12,3 +12,5 @@ import { Button } from 'wyq-hooks'
 
 export default () => <Button />
 ```
+
+<API src='@/Button/index.tsx' />

@@ -1,6 +1,13 @@
 import React, { FC } from 'react'
 
-interface IProps {}
+interface IProps {
+  /**
+   * 可以这样写属性描述
+   * @description       类名
+   * @default           btn
+   */
+  className?: string
+}
 
 const Button: FC<IProps> = (props) => {
   return (

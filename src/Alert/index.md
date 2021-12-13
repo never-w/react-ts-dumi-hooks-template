@@ -1,6 +1,6 @@
 ---
+title: Alert
 nav:
-  title: Alert
   path: /wHooks
 ---
 

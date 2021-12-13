@@ -1,10 +1,8 @@
 ---
 nav:
-  title: 指南
-  path: /guide
+  path: /guide/foo
+  order: 0
 ---
-
-## Foo
 
 Demo:
 
@@ -14,5 +12,3 @@ import { Foo } from 'wyq-hooks'
 
 export default () => <Foo title="First Demo" />
 ```
-
-More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo
