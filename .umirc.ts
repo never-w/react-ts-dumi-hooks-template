@@ -30,5 +30,6 @@ export default defineConfig({
   //     },
   //   ],
   // },
+  locales: [['zh-CN', '中文']],
   exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
 })
