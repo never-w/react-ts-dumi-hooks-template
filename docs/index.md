@@ -1,6 +1,6 @@
 ---
 hero:
-  title: w-hooks
+  title: whooks
   desc: 开箱即用的React Typescript Hooks
   actions:
     - text: 开始

@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi'
 
 export default defineConfig({
-  title: 'w-hooks',
+  title: 'whooks',
   favicon: 'https://avatars.githubusercontent.com/u/80503467?v=4',
   logo: 'https://avatars.githubusercontent.com/u/80503467?v=4',
   outputPath: 'docs-dist',

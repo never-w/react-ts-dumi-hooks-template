@@ -14,12 +14,15 @@ group:
 Demo:
 
 ```tsx
+/**
+ * title: Hooks-btn
+ */
 import React from 'react'
-import { Button } from 'wyq-hooks'
+import { Button } from 'whooks'
 
 export default () => <Button />
 ```
 
-<code defaultShowCode src="../Alert"></code>
-
 <API src='@/Button/index.tsx' />
+
+<Alert type="error">注意，内部暂时只能编写 HTML</Alert>

@@ -15,7 +15,7 @@ Demo:
 
 ```tsx
 import React, { useState } from 'react'
-import { Alert } from 'wyq-hooks'
+import { Alert } from 'whooks'
 
 export default () => {
   const [count, setCount] = useState<number>(0)
