@@ -1,7 +1,7 @@
 ---
 hero:
   title: w-hooks
-  desc: w-hooks site guide s
+  desc: 开箱即用的React Typescript Hooks
   actions:
     - text: 开始
       link: /guide/first
