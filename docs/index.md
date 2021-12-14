@@ -1,7 +1,7 @@
 ---
 hero:
   title: w-hooks
-  desc: w-hooks site guide
+  desc: w-hooks site guide s
   actions:
     - text: 开始
       link: /guide/first
