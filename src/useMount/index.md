@@ -10,14 +10,26 @@ group:
   path: /basis
 ---
 
+# useMount
+
+在组件初始化执行的 hook
+
+## 代码演示
+
 ### 基本用法
 
 <code src="./demo/demo1.tsx" />
 
+## API
+
+```typescript
+
+useMount(fn: () => void )
+
+```
+
 ### 参数
 
-<API hideTitle src="./index.ts" />
-
-<!-- | 参数 | 说明               | 类型         | 默认值 |
+| 参数 | 说明               | 类型         | 默认值 |
 | ---- | ------------------ | ------------ | ------ |
-| fn   | 初始化时执行的函数 | `() => void` | -      | -->
+| fn   | 初始化时执行的函数 | `() => void` | -      |

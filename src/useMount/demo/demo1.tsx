@@ -1,3 +1,8 @@
+/**
+ * title: 基础用法
+ * desc: 在组件首次渲染时，执行方法。
+ */
+
 import React, { useState } from 'react'
 import { useMount } from 'whooks'
 import { message } from 'antd'
