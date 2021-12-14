@@ -10,25 +10,24 @@ export default defineConfig({
     '@': './src',
   },
   navs: [
-    { title: '指南', path: '/guide' },
-    { title: 'Hooks', path: '/wHooks' },
+    null,
     {
       title: 'GitHub',
       path: 'https://github.com/never-w/w-hooks.git',
     },
     { title: '帮助', path: 'https://www.baidu.com' },
   ],
-  menus: {
-    '/guide': [
-      {
-        title: '介绍',
-        path: '/guide/foo',
-      },
-      {
-        title: 'Blog',
-        path: '/guide/foo1',
-      },
-    ],
-  },
+  // menus: {
+  //   '/guide': [
+  //     {
+  //       title: '介绍',
+  //       path: '/guide/foo',
+  //     },
+  //     {
+  //       title: 'Blog',
+  //       path: '/guide/foo1',
+  //     },
+  //   ],
+  // },
   exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
 })

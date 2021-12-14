@@ -8,6 +8,12 @@
     "types": ["jest"],
     "strict": true,
     "skipLibCheck": true,
-    "declaration": true
-  }
+    "declaration": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
 }
