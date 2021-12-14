@@ -17,6 +17,7 @@ export default defineConfig({
     },
     { title: '帮助', path: 'https://www.baidu.com' },
   ],
+  styles: ['https://cdnjs.cloudflare.com/ajax/libs/antd/4.17.3/antd.min.css'],
   // menus: {
   //   '/guide': [
   //     {

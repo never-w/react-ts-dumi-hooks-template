@@ -9,9 +9,10 @@
     "strict": true,
     "skipLibCheck": true,
     "declaration": true,
-    "baseUrl": "src",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"],
+      "whooks": ["./src"]
     }
   },
   "include": ["./src"],
