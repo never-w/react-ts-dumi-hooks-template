@@ -18,5 +18,5 @@ features:
     title: Feature 3
     desc: Balabala
 
-footer: auther is w
+footer: The auther is never-w
 ---
