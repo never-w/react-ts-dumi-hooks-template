@@ -14,6 +14,8 @@ export default () => {
     },
     {
       wait: 500,
+      leading: true,
+      trailing: false,
     },
   )
 
