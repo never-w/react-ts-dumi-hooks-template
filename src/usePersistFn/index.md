@@ -42,14 +42,14 @@ const func = usePersistFn(() => {
 
 <code src="./demo/demo1.tsx" />
 
-<!-- ### 性能提升 -->
+<!-- ### 性能提升TODO:暂时注释 -->
 
-<!-- <code src="./demo/demo2.tsx" /> -->
+<!-- <code src="./demo/demo2.tsx" /> TODO:暂时注释 -->
 
 ## API
 
 ```typescript
-const fn = usePersistFn<T>(fn: T): T;
+const fn = usePersistFn<T>(fn: T): T
 ```
 
 ### Result
